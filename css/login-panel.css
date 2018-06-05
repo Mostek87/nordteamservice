@@ -1,0 +1,103 @@
+.triangle
+  {
+    border-left: 2px solid grey;
+	border-top: 2px solid grey;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	transform: rotate(45deg);
+	z-index:12;
+	background:black;
+	display:none;
+  }
+  
+  .control-panel
+  {
+    overflow:hidden;
+	border: 2px solid grey;
+	width: 200px;
+	height:0px;
+	border-radius: 4px;
+	position:fixed;
+	z-index:14;
+	background:black;
+	display:none;
+  }
+  
+  .input-container
+  {
+	border-radius: 4px;
+	width:95%;
+	margin: 6px auto;
+	background: #212121;
+  }
+  .user-login-data
+  {
+    width:125px;
+	border: none;
+	background: #212121;
+	color:white;
+  }
+  
+  .user-login-data:focus
+  {
+    outline:none;
+  }
+  
+  
+  .user-login-data-label
+  {
+   font-family: 'Alegreya Sans SC', sans-serif;
+   font-size: 19px;
+   color:white;
+   margin: 3px;
+  }
+  
+  .user-submit-login-data
+  {
+    display:block;
+	width:95%;
+	margin: 0 auto;
+	border-radius: 3px;
+	cursor:pointer;
+	background: linear-gradient(#24ff00, #095d09);
+	border: none;
+	height: 24px;
+	color:white;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 20px;
+	padding: 0;
+	line-height: 24px;
+  }
+  
+  .separator
+  {
+    height: 3px;
+    background-color: red;
+    margin: 7px 2px;
+    box-shadow: 0px 1px 6px red;
+  }
+  
+  .information-for-users-without-account
+  {
+    color: white;
+    font-family: 'Athiti', sans-serif;
+	font-size:14px;
+	padding-left: 9px;
+  }
+  
+  .register-button
+  {
+    display:block;
+	width: 95%;
+	margin: 0 auto;
+	color:white;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-decoration:none;
+	text-align:center;
+	font-size: 21px;
+	background: linear-gradient(#CC3333,#660000);
+	border-radius:4px;
+	margin-top: 4px;
+  }
+  

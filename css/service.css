@@ -1,0 +1,349 @@
+*
+{
+ box-sizing:border-box;
+}
+
+body
+{
+ margin:0; 
+ background: #d5d5d5;
+}
+
+.background-images-container
+{
+  height:300px;
+  background: url(/img/serwis.jpeg) no-repeat center;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.service-information
+{
+  width:90%;
+  margin: 10px auto;
+  font-size: 16px;
+  font-family: 'Athiti', sans-serif;
+  background: white;
+  display:table;
+  border: 1px solid black;
+} 
+
+.service-text-information
+{
+  padding: 0 12px 6px 12px;
+  display:table-cell;
+  background :  #222;   /*#d5d5d5;*/
+  color:white;
+}
+
+.header
+{
+	padding-left: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight:bold;
+  font-size: 24px;
+  color:white;
+  margin:0;
+}
+
+.decoration-image
+{
+ height:300px;
+ width: 30%;
+ background-size:cover;
+ display: table-cell;
+}
+
+.cauldron
+{
+  background: url(/img/kociol.jpg) no-repeat center;	
+}
+
+.jacuzzi
+{
+  background: url(/img/jacuzzi3.jpg) no-repeat center;	
+}
+
+.pipes
+{
+  background: url(/img/rury2.jpg) no-repeat center;	
+}
+
+.e-mail-adress-link
+{
+  text-decoration:none;
+  color:white;
+}
+
+.e-mail-adress-link:hover
+{
+ text-decoration:underline;
+}
+
+
+.top-contact
+{
+ background-color: black;
+ height: 40px;
+ padding: 5px;
+ color:white;
+}
+
+.phone-number
+{
+	color:white;
+	text-decoration: none;
+}
+
+.top-icon
+{
+  margin: 0px 7px;	
+}
+
+.list-horizontal
+{
+  list-style-type:none;
+  margin:0;
+}
+
+
+.navigation-item
+{
+ padding:0;
+ margin:0 10px;
+ display:inline;
+}
+
+.logo-item-list
+{
+  margin:0 auto 0 0;
+  display:inline;
+  padding:0;
+}
+
+
+.navigation-list
+{
+  padding:0 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation-item-link
+{
+  text-decoration:none;
+  font-family:'Archivo Narrow', sans-serif;
+  font-size: 22px;
+  transition: color 2.5s;
+  text-transform: uppercase;
+}
+
+.navigation-item-link:not(.active)
+{
+ color:black;	
+}
+
+.active
+{
+  color:#00b5ee;
+}
+
+.navigation-item-link:hover
+{
+ color:#00b5ee;
+}
+
+
+.decoration-container
+{
+ width: 60px;
+ text-align:left;
+ padding-left: 5px;
+ height:27px;
+ display:inline-block;
+}
+
+
+
+.small-logo
+{
+ height:27px;
+}
+
+.contact-data-top
+{
+  display:inline;
+  font-size:20px;
+  line-height:30px;
+  font-family: 'Athiti', sans-serif;
+  margin:0;
+}
+
+.menu
+{
+ z-index:7;
+ background:white;	
+}
+
+.floated
+{
+  float:right;
+}
+
+.fa-bars
+{
+ margin: 0px 6px;
+}
+
+.visually-hidden
+{
+ display:block;
+ overflow:hidden;
+ width:0px;
+ height: 0px;
+}
+
+.NordTeamService-Footer
+{
+ background: url(/img/industrial-background.jpg);
+ background-size:cover;
+ padding: 55px 0px;
+}
+
+.newsletter-form
+{
+ display:inline;
+ position: relative;
+ bottom:3px; 
+}
+
+.user-email-newsletter
+{
+ border-radius: 2px;
+ border: none;
+ height:19px;
+}
+
+.submit-newsletter
+{
+	background: #466d1f;
+	margin-left:3px;
+	padding: 3px 6px;
+	color:white;
+	border:1px solid #517a28;
+	border-radius:2px;
+	cursor:pointer;
+}
+
+.user-email-newsletter:focus
+{
+ outline: 2px solid #F0030F;
+ outline-offset: 0.5px; 
+}
+
+.facebook-link
+{
+ color:white;	
+}
+
+.facebook-link:hover
+{
+ color:#0C29CC;
+}
+
+.footer-separator
+{
+ text-align:center;
+ font-size:22px;
+ font-family: 'Athiti', sans-serif; 
+ color: white;  
+}
+
+.designer-information
+{
+  text-align: center;
+  font-size: 12px; 
+  color: white; 
+  font-family: 'Play', sans-serif;  
+}
+
+.link-to-designer
+{
+  color: white;
+  text-decoration: none;
+}
+
+.link-to-designer:hover
+{
+	text-decoration: underline;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 775px)
+{
+   .newsletter-form
+     {
+	 display:block;
+	 width:257px;
+	 margin: 0 auto;
+	 text-align:initial;
+   }
+}
+
+
+@media only screen and (max-width: 530px) 
+{
+	.e-mail
+	{
+		display: none;
+	}
+	
+	.nord-team-logo
+	{
+		height: 45px;
+	}
+	
+	.phone-right
+	{
+	  display:none;
+	}
+	
+	.navigation-item-link
+	{
+	    font-size: 14px	
+	}
+	
+	.navigation-item
+	{
+		margin: 0 3px;
+	}
+}
+
+
+@media only screen and (max-width: 950px)
+{
+    .service-information, .decoration-image, .service-text-information
+     {
+     display: block;	  
+  }
+ 
+   .decoration-image
+    {
+    width: 100%;
+  }
+	
+}
+
+
+
+@media only screen and (max-width: 720px) 
+{
+	.phone-right
+	{
+	  display:none;
+	}
+}
+

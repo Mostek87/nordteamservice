@@ -1,0 +1,363 @@
+*{box-sizing: border-box;}
+
+body
+{margin:0;}
+
+.logo-nord-team
+{
+  width:40px;
+  height:40px;
+}
+
+.background-images-container
+{
+  height: 400px; 
+  background: url(/img/sklep3.JPG) no-repeat center;
+  background-size: cover;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  line-height: 400px;
+  color: black;
+  text-align:center;
+  font-family: 'Athiti', sans-serif;
+  font-size: 50px;
+}
+
+
+.e-mail-adress-link
+{
+  text-decoration:none;
+  color:white;
+}
+
+.e-mail-adress-link:hover
+{
+ text-decoration:underline;
+}
+
+
+.top-contact
+{
+ background-color: black;
+ height: 40px;
+ padding: 5px;
+ color:white;
+
+}
+
+.top-icon
+{
+  margin: 0px 7px;	
+}
+
+.list-horizontal
+{
+  list-style-type:none;
+  margin:0;
+}
+
+.navigation-item
+{
+ padding:0;
+ margin: 13px;
+ display:inline;
+}
+
+.search-form
+{
+  display:inline;
+}
+
+.navigation-list
+{
+ padding:0 8px;
+ position:relative;
+ border-bottom: 1px solid black;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+}
+
+.user-inputs-container
+{
+ position: absolute;
+ bottom: -40px;
+ right: 4%;
+ height: 40px;
+ width: 130px;
+ border-radius: 0 0 5px 5px;
+ border: 1px solid black;
+ background: url(/img/koszyk-bg.png) no-repeat center;
+ color:white;
+ background-size: cover;
+ font-family: 'Athiti', sans-serif;
+ font-weight: bold;
+ line-height: 40px;
+ text-align: center;
+}
+
+.fa-shopping-basket
+{
+  margin-left: 5px;
+}
+
+
+.user-account-action
+{
+  display:inline-block;
+  text-align:center;
+  line-height: 39px;
+  font-size: 19px;
+  color:black;
+  font-family: 'Athiti', sans-serif;
+  font-weight: bold;
+  text-decoration:none;
+  border-right: 1px solid black;
+}
+
+.login
+{
+ width:60px;
+}
+
+.register
+{
+  width: 90px;
+  margin-left: -4px;
+}
+
+.search-input-container
+{
+  display:inline-block;
+  padding-top:5px;
+  height:35px;
+  vertical-align: top;
+}
+
+.phrase-to-search
+{
+  border-radius:3px;
+  height:28px;
+  padding-left: 38px;
+  background: url(/img/lupa.png) no-repeat left;
+  width:18vw;
+  border: 1px solid #7C7C7C;
+  position: relative;
+  bottom:10px;
+}
+
+.submit-button
+{
+  border-radius: 3px;
+  background: url(/img/bg.png) no-repeat center;
+  color:white;
+  height: 28px;
+  border: 1px solid green;
+  width:73px;
+  position:relative;
+  bottom: 10px;
+}
+
+.submit-button:hover
+{
+ cursor:pointer;
+}
+
+.phrase-to-search:focus
+{
+ outline:none;
+}
+
+.user-account-action:hover
+{
+  background: black;
+  color:white;
+}
+
+.navigation-item-link
+{
+  text-decoration:none;
+  font-family:'Archivo Narrow', sans-serif;
+  font-size: 19px;
+  transition: color 2.5s;
+}
+
+.navigation-item-link:hover
+{
+  cursor:pointer;
+}
+
+.navigation-item-link:not(.active)
+{
+ color:black;	
+}
+
+.active
+{
+  color:#00b5ee;
+}
+
+.navigation-item-link:hover
+{
+ color:#00b5ee;
+}
+
+.hamburger-set
+{
+ display:none;
+ font-size:20px;
+ line-height:30px;
+ font-family: 'Athiti', sans-serif;
+ margin:0;
+ cursor:pointer;
+}
+
+.navigation-hamburger
+{
+  height:0;
+  width:100%;
+  background:white;
+  overflow:hidden;
+  position:fixed;
+  top:41px;
+  z-index:10;
+}
+
+
+
+.hamburger-layer-link
+{
+  display:block;
+  height:33px;
+  padding:3px;
+  color:black;
+  font-size: 14px;
+  border-bottom:1px solid black;
+}
+
+.hamburger-layer-link:hover, .hamburger-layer-link:active
+{
+  color:white;
+  background:black;
+}
+
+
+.hamburger-text
+{
+ display:inline-block;
+ height:27px;
+ line-height:27px;
+ text-decoration:none; 
+ text-align:left;
+ color:inherit;
+ vertical-align: top;
+ font-family:'Archivo Narrow', sans-serif;
+}
+
+.hamburger-icon
+{
+ color:inherit;
+ font-size: 20px;
+}
+
+.decoration-container
+{
+ width: 60px;
+ text-align:left;
+ padding-left: 5px;
+ height:27px;
+ display:inline-block;
+}
+
+
+
+.small-logo
+{
+ height:27px;
+}
+
+.contact-data-top
+{
+  display:inline;
+  font-size:20px;
+  line-height:30px;
+  font-family: 'Athiti', sans-serif;
+  margin:0;
+}
+
+.menu
+{
+ z-index:7;
+ background:white;	
+}
+
+.floated
+{
+  float:right;
+}
+
+.fa-bars
+{
+ margin: 0px 6px;
+}
+
+
+/*  media queries   */
+
+@media only screen and (max-width: 624px)
+{
+	
+.e-mail
+ {
+ display:none; 
+ }
+	
+ .navigation-list
+ {
+  display:none !important;
+ }
+ 
+ .top-contact
+ {
+  background:white;
+  color:black;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:10;
+  box-shadow: 1px 1px 2px 2px black;
+ }
+ 
+ .navigation-hamburger
+ {
+  display:block;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+ }
+ 
+
+.hamburger-set
+{
+ display:inline;
+}
+ 
+      
+} 
+
+
+@media only screen and (max-width: 720px) 
+{
+	.phone-right
+	{
+	  display:none;
+	}
+}
+
+@media only screen and (max-width: 350px)
+{
+   .contact-data-top
+      {
+	 display:none;   
+   }   
+}
