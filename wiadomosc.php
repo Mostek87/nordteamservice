@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+  <meta charset="utf-8">	
   <title>Status wysłanej wiadomości</title>
-  <meta charset="utf-8">
   <meta name="author" content="Cybertron">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Description" content="Dane kontaktowe firmy Nord Team Service">
