@@ -8,7 +8,7 @@ function initiateGalerias(&$galeriasNumber)
 	}
 }
 
-  $dataBase = mysqli_connect('mysql7.superhost.pl', 'sh218893_rocco', 'lekinapysk', 'sh218893_rocco');
+  $dataBase = mysqli_connect('');
 	  
 	    if(!$dataBase)
 	    {
