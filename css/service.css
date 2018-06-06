@@ -26,13 +26,15 @@ body
   background: white;
   display:table;
   border: 1px solid black;
-} 
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 
 .service-text-information
 {
   padding: 0 12px 6px 12px;
   display:table-cell;
-  background :  #222;   /*#d5d5d5;*/
+  background :  #222; 
   color:white;
 }
 

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="/css/news.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Jura|Athiti|Play|Archivo+Narrow&subset=latin,latin-ext' rel='stylesheet' >
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>  
 <body>
 <header>

@@ -9,6 +9,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Description" content="Dane kontaktowe firmy Nord Team Service">
   <link href='http://fonts.googleapis.com/css?family=Athiti|Archivo+Narrow|Jura&subset=latin,latin-ext' rel='stylesheet'>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/contact.css">
 </head>  
